@@ -6,8 +6,6 @@ An Excel-based analysis of 2,000 global e-commerce orders (January 2023 – Dece
 
 **Headline finding:** The business earns a healthy 32.8% profit margin, but 13.6% of orders (272) are sold at a loss, and 82% of those loss-making orders come from a single category, Office Supplies.
 
-![Dashboard / chart preview](images/preview.png)
-
 ## Business Problem
 
 The business looks profitable on the surface, but sales are flat over three years and a noticeable share of orders lose money. This project asks:
@@ -19,7 +17,7 @@ The business looks profitable on the surface, but sales are flat over three year
 
 ## Dataset
 
-- **Source:** Kaggle, [dataset name and link here]
+- **Source:** Kaggle,
 - **Size:** 2,000 order records, 15 fields (including Order ID, Date, Region, Country, Category, Segment, Payment Method, Quantity, Sales, Profit, Discount and Shipping Cost)
 - **Coverage:** 5 regions, 20 countries, 4 product categories, 3 customer segments, 4 payment methods
 - **Data quality:** No missing values, no duplicate rows and all dates valid, so no cleaning was required
@@ -72,14 +70,13 @@ The business looks profitable on the surface, but sales are flat over three year
 ├── data/            # Dataset (check the Kaggle licence before uploading)
 ├── analysis/        # Excel workbook with pivot tables and charts
 ├── presentation/    # Slide deck (PDF and PPTX)
-├── images/          # Chart and dashboard screenshots
+├── images/
 └── README.md
 ```
 
 ## Author
 
 **Ibraheem Tunde Lawal**
-Microbiology graduate and aspiring data analyst, Kwara State University
-[LinkedIn](https://www.linkedin.com/in/lawalibraheem-aa8981321)
+Microbiology graduate and data analyst, Kwara State University
 
 *Completed as the final project of a three-month data analysis training with Learn with Wida.*
